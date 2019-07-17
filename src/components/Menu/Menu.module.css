@@ -1,0 +1,25 @@
+.item{
+border-left:1px solid #70C2A7;
+border-right:1px solid #70C2A7;
+border-bottom:3px solid #70C2A7;
+text-align:center;
+width:100%;
+}
+a{
+ color:#70C2A7;
+ text-align:center;
+ font-size:25px;
+}
+.nav{
+    width:20%;
+    height: 100%;
+}
+.nav div{
+    margin-top:20px;
+    margin-left:10px;
+    height: 40px;
+}
+.activeLink{
+    font-size:30px;
+    
+}

@@ -1,0 +1,22 @@
+
+.wrapper{
+  width:100%;
+  display: block;
+  
+}
+.row{
+  display: flex;
+}
+#contentPage{
+  margin-top:42px;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.content
+{
+    margin-left:20px;
+    width:75%;
+}

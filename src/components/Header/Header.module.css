@@ -1,0 +1,30 @@
+header{
+    top:0;
+    left:0;
+    z-index:120;
+    position: fixed;
+    width:100%;
+    height: 42px;
+    background: #71C3A7;
+}
+header img{
+    width:30px;
+    height: 32px;
+    margin-top:5px;
+    margin-left:20px;
+}
+
+.item{
+margin-left:10px;   
+
+width:20%;
+
+
+background:black;
+text-align: center;
+}
+.item a{
+    color:white;
+    font-size:100%;
+    
+}
