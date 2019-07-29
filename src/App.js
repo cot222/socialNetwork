@@ -5,14 +5,14 @@ import Menu from './components/Menu/Menu.jsx';
 import Profile from './components/Profile/Profile.jsx';
 import DialogsContainer from './components/Dialogs/DialogsContainer.jsx';
 import UsersContainer from './components/Users/UsersContainer.jsx';
-import {BrowserRouter,Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 
 
 const App = (props) => {
 
     return (
 
-      <BrowserRouter>
+
         <div className="wrapper">
           <Header />
           <div class="row" id="contentPage">
@@ -24,7 +24,7 @@ const App = (props) => {
             </div>
           </div>
         </div>
-      </BrowserRouter>
+
 
     );
 

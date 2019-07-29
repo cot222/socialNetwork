@@ -11,16 +11,29 @@ let initialState = {
 }
 const profileReducer = (state = initialState,action) => {
 
+    switch(action.type) {
+        case ADD_POST: 
+            let newPost = {
+                id: 5,
+                postText: state.newPostText,
+            }
+            return {
+                ...state,
+                PostData : [...state.PostData,newPost],
+                newPostText : ''
+            };
+        case UPDATE_NEW_POST_TEXT: 
+            return {
+                ...state,
+                newPostText: action.newText
+            };   
+        
+        default: return state;    
+    }
+
+    /*
     if(action.type === ADD_POST){
-        let newPost = {
-            id: 5,
-            postText: state.newPostText,
-        }
-        return {
-            ...state,
-            PostData : [...state.PostData,newPost],
-            newPostText : ''
-        };
+
 
     } else if (action.type === UPDATE_NEW_POST_TEXT){
         
@@ -31,7 +44,7 @@ const profileReducer = (state = initialState,action) => {
 
     } 
 
-    return state;
+    return state;*/
 }
 
 
